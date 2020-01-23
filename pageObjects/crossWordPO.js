@@ -5,17 +5,18 @@ module.exports = {
 
         //Front Page Navigation Button 
         searchButton: {
-            selector: '(//*[data-test-id="search-button"]',
+            selector: '(//button[@data-test-id="search-button"])',
             locateStrategy: 'xpath'
         },
 
         searchInput: {
-            selector: '(//*[data-testid="search-input"]',
+            selector: '(//input[@data-testid="search-input"])',
+            // selector: '(//div[@class="css-1j9evst"])',
             locateStrategy: 'xpath'
         },
 
         searchSubmit: {
-            selector: '(//*[data-test-id="search-submit"]',
+            selector: '(//button[@data-test-id="search-submit"])',
             locateStrategy: 'xpath'
         },
 
@@ -26,14 +27,11 @@ module.exports = {
         },
 
         //MiniPuzzle Link
-        minipuzLink: {
-            selector: '(//*[class()="index-progressIconContent--2qwgD puzzleProgressIcons-miniProgress0--2H2iM"])',
-            locateStrategy: 'xpath'
-        },
+        minipuzLink: '[href="https:// /crosswords/game/daily/"]',
 
         //Pop-Up Button 
         popupBox: {
-            selector: '(//*[class="buttons-modalButton--1REsR buttons-startBtn--3OK72"])',
+            selector: '(//div[@class="index-byline--1IE55"])',
             locateStrategy: 'xpath'
         },
 
@@ -71,14 +69,36 @@ module.exports = {
 
         resetBtn: '[aria-label="reset"]',
 
+        //Times Machine
 
+        burgerButton: '#desktop-sections-button',
 
-        //Language tabs
-        english: {
-            selector: '(//a[text()="en-US"])',
+        toolServices: {
+            selector: '(//a[text()="tools & services"])[3])',
             locateStrategy: 'xpath'
         },
 
+        timesMachine: {
+            selector: '[href="https://timesmachine.nytimes.com/browser/"]',
+            locateStrategy: 'xpath'
+        },
+
+        tminputField: {
+            selector: '(//input[@name="change-date-input"])',
+            locateStrategy: 'xpath'
+        },
+
+        tmsubmitBtn: {
+            selector: '//button[@id="select_date_button"])',
+            locateStrategy: 'xpath'
+        },
+
+        tmdateBtn: {
+            selector: '//span[@id="dateText"]',
+            locateStrategy: 'xpath'
+        },
+
+        //Language tabs
         spanish: {
             selector: '(//a[@lang="es-ES"])',
             locateStrategy: 'xpath'
