@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="4"
+            tests="2">
+
+  <testsuite name="sectionLinksTests"
+    errors="3" failures="4" hostname="" id="" package="sectionLinksTests" skipped="0"
+    tests="2" time="186.8" timestamp="">
+  
+    <testcase name="Language Links Functionality Test" classname="sectionLinksTests" time="15.81" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Section Links Functionality Test" classname="sectionLinksTests" time="171.0" assertions="37">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element [0;33m&lt;Element [name=@sectionHeader]&gt;[0m contains text [0;33m&#39;Magazine&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Magazine&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5294ms)[0m">    at Object.Section Links Functionality Test (C:\Users\littlestar\Documents\DevMountain\NY-Times-Website-QA-Testing\tests\sectionLinksTests.js:121:21)</failure>
+
+    
+
+      <failure message="Testing if element [0;33m&lt;Element [name=@sectionHeader]&gt;[0m contains text [0;33m&#39;The New York Times Style Magazine&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;The New York Times Style Magazine&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5261ms)[0m">    at Object.Section Links Functionality Test (C:\Users\littlestar\Documents\DevMountain\NY-Times-Website-QA-Testing\tests\sectionLinksTests.js:127:21)</failure>
+
+    
+
+      <failure message="Testing if element [0;33m&lt;Element [name=@sectionHeader]&gt;[0m contains text [0;33m&#39;Real Estate&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Real Estate&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5330ms)[0m">    at Object.Section Links Functionality Test (C:\Users\littlestar\Documents\DevMountain\NY-Times-Website-QA-Testing\tests\sectionLinksTests.js:133:21)</failure>
+
+      <failure message="Timed out while waiting for element &lt;(//a[text()=&#34;Video&#34;])[2]&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;found&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5228ms)[0m">    at Object.Section Links Functionality Test (C:\Users\littlestar\Documents\DevMountain\NY-Times-Website-QA-Testing\tests\sectionLinksTests.js:137:14)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  NoSuchElementError: An error occurred while running .getText() command on &lt;Element [name=@sectionHeader]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;04929612452876d6863482a67676a4b0&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .getText() command on &lt;Element [name=@sectionHeader]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;04929612452876d6863482a67676a4b0&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .getText() command on &lt;Element [name=@sectionHeader]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;04929612452876d6863482a67676a4b0&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

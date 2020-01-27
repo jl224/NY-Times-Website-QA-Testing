@@ -3,8 +3,8 @@
             failures="0"
             tests="0">
 
-  <testsuite name="crossWordTest"
-    errors="1" failures="0" hostname="" id="" package="crossWordTest" skipped="1"
+  <testsuite name="timeMachineTest"
+    errors="1" failures="0" hostname="" id="" package="timeMachineTest" skipped="1"
     tests="0" time="0.000" timestamp="">
   
 
@@ -21,7 +21,7 @@
   
     
     <testcase
-      name="Cross-word Puzzle Functionality Test" classname="crossWordTest">
+      name="Times Machine Functionality Test" classname="timeMachineTest">
       <skipped />
     </testcase>
     
